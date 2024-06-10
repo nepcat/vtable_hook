@@ -75,7 +75,7 @@ fn main() {
              * victim_cpp_class bar() result = 0
              * unaffected_cpp_class bar() result = 0 */
 
-            /* Replacing foo inside raw_hook */
+            /* Replacing bar inside raw_hook */
             hook.replace_method(1, bar_hooked as _);
             /* Replacing victim_cpp_class's VTable */
             hook.enable();
