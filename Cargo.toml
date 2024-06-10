@@ -4,4 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["nepcat"]
 
+description = "Simple crate for hooking C++ VTables"
+keywords = ["vtable", "hook", "hooking", "c++", "cpp"]
+repository = "https://github.com/nepcat/vtable_hook"
+homepage = "https://github.com/nepcat/vtable_hook"
+license = "MIT"
+readme = "README.md"
+
 [dependencies]
