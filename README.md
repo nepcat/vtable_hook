@@ -2,14 +2,10 @@
 Simple crate for hooking C++ VTables
 
 # Installing
-Simply clone this repo and include it in your project.
-```bash
-$ git clone https://github.com/nepcat/vtable_hook
-```
-### Cargo.toml
+Add this line to your `Cargo.toml`
 ```toml
 [dependencies]
-vtable_hook = { path = "path/to/vtable_hook/" }
+vtable_hook = { version = "0.1.1" }
 ```
 
 # Available methods
